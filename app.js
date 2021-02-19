@@ -2,7 +2,7 @@ let button = document.querySelector(".button");
 let input = document.querySelector(".inputValue");
 let temp = document.querySelector(".temp");
 let weather = document.querySelector(".weather");
-let hi_lo = document.querySelector(".hi_lo");
+let hilo = document.querySelector(".hilo");
 let city = document.querySelector(".city");
 
 button.addEventListener("click", function (name) {
@@ -21,11 +21,9 @@ button.addEventListener("click", function (name) {
 
       city.innerHTML = nameValue;
       weather.innerHTML = descValue;
-      temp.innerHTML = "Temp - " + Math.floor(tempValue) + "°F";
-      // hi_lo.innerHTML = nameValue;
+      temp.innerHTML = "Temp - " + Math.floor(tempValue) + "°f";
       input.value = "";
       console.log(data);
-      console.log(temp_min);
     })
 
     .catch((err) => alert("Please retype city name"));

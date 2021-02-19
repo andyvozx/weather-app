@@ -41,6 +41,10 @@ body {
   width: 50%;
   margin-bottom: 30px;
   margin-top: 20px;
+  font-size: 2rem;
+  font-family: "Fredoka One", cursive;
+  background-color: #b3f3fc;
+  border-radius: 25px;
 }
 
 .container {
