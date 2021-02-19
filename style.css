@@ -6,6 +6,7 @@
 h1 {
   text-align: center;
   font-family: "Fredoka One", cursive;
+  font-size: 5rem;
 }
 
 body {
@@ -17,6 +18,29 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Fredoka One", cursive;
+  font-size: 2rem;
+  background-image: url(resources/pics/sky.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.inputValue {
+  height: 50px;
+  width: 50%;
+  text-align: center;
+  font-family: "Fredoka One", cursive;
+  font-size: 2rem;
+  margin-top: 30px;
+}
+
+.button {
+  height: 40px;
+  width: 50%;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .container {
