@@ -21,7 +21,7 @@ button.addEventListener("click", function (name) {
 
       city.innerHTML = nameValue;
       weather.innerHTML = descValue;
-      temp.innerHTML = "Temp - " + Math.floor(tempValue) + "°f";
+      temp.innerHTML = Math.floor(tempValue) + "°f";
       input.value = "";
       console.log(data);
     })
